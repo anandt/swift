@@ -20,9 +20,14 @@ class ViewController: UIViewController {
         displayText.text=String(sample)
         
         let list = ["Car", "Bike", "Plane", "Boat"]
+        
         for (index, element) in list.enumerate() {
             print(index, ":", element)
         }
+        
+        var someDict:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
+        
+        print( "Value of key = 1 is \(someDict)" )
     }
 }
 
