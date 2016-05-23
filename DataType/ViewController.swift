@@ -26,8 +26,12 @@ class ViewController: UIViewController {
         }
         
         var someDict:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
-        
         print( "Value of key = 1 is \(someDict)" )
+        
+        var oldVal = someDict[1]
+        someDict[1] = "New value of one"
+        var someVar = someDict[1]
+        print( "Old value of key = 1 is \(oldVal)" )
     }
 }
 
