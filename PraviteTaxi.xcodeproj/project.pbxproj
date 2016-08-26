@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1743595F1D7061D800843110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743595E1D7061D800843110 /* AppDelegate.swift */; };
+		174359611D7061D800843110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174359601D7061D800843110 /* ViewController.swift */; };
+		174359641D7061D800843110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174359621D7061D800843110 /* Main.storyboard */; };
+		174359671D7061D800843110 /* PraviteTaxi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 174359651D7061D800843110 /* PraviteTaxi.xcdatamodeld */; };
+		174359691D7061D900843110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174359681D7061D900843110 /* Assets.xcassets */; };
+		1743596C1D7061D900843110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1743596A1D7061D900843110 /* LaunchScreen.storyboard */; };
+		174359771D7061D900843110 /* PraviteTaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174359761D7061D900843110 /* PraviteTaxiTests.swift */; };
+		174359821D7061D900843110 /* PraviteTaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174359811D7061D900843110 /* PraviteTaxiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		174359731D7061D900843110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174359531D7061D800843110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1743595A1D7061D800843110;
+			remoteInfo = PraviteTaxi;
+		};
+		1743597E1D7061D900843110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174359531D7061D800843110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1743595A1D7061D800843110;
+			remoteInfo = PraviteTaxi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1743595B1D7061D800843110 /* PraviteTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraviteTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1743595E1D7061D800843110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		174359601D7061D800843110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		174359631D7061D800843110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		174359661D7061D800843110 /* PraviteTaxi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PraviteTaxi.xcdatamodel; sourceTree = "<group>"; };
+		174359681D7061D900843110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1743596B1D7061D900843110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1743596D1D7061D900843110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174359721D7061D900843110 /* PraviteTaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraviteTaxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174359761D7061D900843110 /* PraviteTaxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraviteTaxiTests.swift; sourceTree = "<group>"; };
+		174359781D7061D900843110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1743597D1D7061D900843110 /* PraviteTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraviteTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174359811D7061D900843110 /* PraviteTaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraviteTaxiUITests.swift; sourceTree = "<group>"; };
+		174359831D7061D900843110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174359581D7061D800843110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1743596F1D7061D900843110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1743597A1D7061D900843110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174359521D7061D800843110 = {
+			isa = PBXGroup;
+			children = (
+				1743595D1D7061D800843110 /* PraviteTaxi */,
+				174359751D7061D900843110 /* PraviteTaxiTests */,
+				174359801D7061D900843110 /* PraviteTaxiUITests */,
+				1743595C1D7061D800843110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1743595C1D7061D800843110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1743595B1D7061D800843110 /* PraviteTaxi.app */,
+				174359721D7061D900843110 /* PraviteTaxiTests.xctest */,
+				1743597D1D7061D900843110 /* PraviteTaxiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1743595D1D7061D800843110 /* PraviteTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				1743595E1D7061D800843110 /* AppDelegate.swift */,
+				174359601D7061D800843110 /* ViewController.swift */,
+				174359621D7061D800843110 /* Main.storyboard */,
+				174359681D7061D900843110 /* Assets.xcassets */,
+				1743596A1D7061D900843110 /* LaunchScreen.storyboard */,
+				1743596D1D7061D900843110 /* Info.plist */,
+				174359651D7061D800843110 /* PraviteTaxi.xcdatamodeld */,
+			);
+			path = PraviteTaxi;
+			sourceTree = "<group>";
+		};
+		174359751D7061D900843110 /* PraviteTaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				174359761D7061D900843110 /* PraviteTaxiTests.swift */,
+				174359781D7061D900843110 /* Info.plist */,
+			);
+			path = PraviteTaxiTests;
+			sourceTree = "<group>";
+		};
+		174359801D7061D900843110 /* PraviteTaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				174359811D7061D900843110 /* PraviteTaxiUITests.swift */,
+				174359831D7061D900843110 /* Info.plist */,
+			);
+			path = PraviteTaxiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1743595A1D7061D800843110 /* PraviteTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174359861D7061D900843110 /* Build configuration list for PBXNativeTarget "PraviteTaxi" */;
+			buildPhases = (
+				174359571D7061D800843110 /* Sources */,
+				174359581D7061D800843110 /* Frameworks */,
+				174359591D7061D800843110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PraviteTaxi;
+			productName = PraviteTaxi;
+			productReference = 1743595B1D7061D800843110 /* PraviteTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		174359711D7061D900843110 /* PraviteTaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174359891D7061D900843110 /* Build configuration list for PBXNativeTarget "PraviteTaxiTests" */;
+			buildPhases = (
+				1743596E1D7061D900843110 /* Sources */,
+				1743596F1D7061D900843110 /* Frameworks */,
+				174359701D7061D900843110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174359741D7061D900843110 /* PBXTargetDependency */,
+			);
+			name = PraviteTaxiTests;
+			productName = PraviteTaxiTests;
+			productReference = 174359721D7061D900843110 /* PraviteTaxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1743597C1D7061D900843110 /* PraviteTaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1743598C1D7061D900843110 /* Build configuration list for PBXNativeTarget "PraviteTaxiUITests" */;
+			buildPhases = (
+				174359791D7061D900843110 /* Sources */,
+				1743597A1D7061D900843110 /* Frameworks */,
+				1743597B1D7061D900843110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1743597F1D7061D900843110 /* PBXTargetDependency */,
+			);
+			name = PraviteTaxiUITests;
+			productName = PraviteTaxiUITests;
+			productReference = 1743597D1D7061D900843110 /* PraviteTaxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174359531D7061D800843110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anand tellabati";
+				TargetAttributes = {
+					1743595A1D7061D800843110 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					174359711D7061D900843110 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1743595A1D7061D800843110;
+					};
+					1743597C1D7061D900843110 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1743595A1D7061D800843110;
+					};
+				};
+			};
+			buildConfigurationList = 174359561D7061D800843110 /* Build configuration list for PBXProject "PraviteTaxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 174359521D7061D800843110;
+			productRefGroup = 1743595C1D7061D800843110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1743595A1D7061D800843110 /* PraviteTaxi */,
+				174359711D7061D900843110 /* PraviteTaxiTests */,
+				1743597C1D7061D900843110 /* PraviteTaxiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174359591D7061D800843110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1743596C1D7061D900843110 /* LaunchScreen.storyboard in Resources */,
+				174359691D7061D900843110 /* Assets.xcassets in Resources */,
+				174359641D7061D800843110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174359701D7061D900843110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1743597B1D7061D900843110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174359571D7061D800843110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174359611D7061D800843110 /* ViewController.swift in Sources */,
+				174359671D7061D800843110 /* PraviteTaxi.xcdatamodeld in Sources */,
+				1743595F1D7061D800843110 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1743596E1D7061D900843110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174359771D7061D900843110 /* PraviteTaxiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174359791D7061D900843110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174359821D7061D900843110 /* PraviteTaxiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174359741D7061D900843110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1743595A1D7061D800843110 /* PraviteTaxi */;
+			targetProxy = 174359731D7061D900843110 /* PBXContainerItemProxy */;
+		};
+		1743597F1D7061D900843110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1743595A1D7061D800843110 /* PraviteTaxi */;
+			targetProxy = 1743597E1D7061D900843110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		174359621D7061D800843110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174359631D7061D800843110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1743596A1D7061D900843110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1743596B1D7061D900843110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174359841D7061D900843110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174359851D7061D900843110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174359871D7061D900843110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PraviteTaxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		174359881D7061D900843110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PraviteTaxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1743598A1D7061D900843110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PraviteTaxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PraviteTaxi.app/PraviteTaxi";
+			};
+			name = Debug;
+		};
+		1743598B1D7061D900843110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PraviteTaxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PraviteTaxi.app/PraviteTaxi";
+			};
+			name = Release;
+		};
+		1743598D1D7061D900843110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PraviteTaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PraviteTaxi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1743598E1D7061D900843110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PraviteTaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PraviteTaxi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174359561D7061D800843110 /* Build configuration list for PBXProject "PraviteTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174359841D7061D900843110 /* Debug */,
+				174359851D7061D900843110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174359861D7061D900843110 /* Build configuration list for PBXNativeTarget "PraviteTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174359871D7061D900843110 /* Debug */,
+				174359881D7061D900843110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		174359891D7061D900843110 /* Build configuration list for PBXNativeTarget "PraviteTaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1743598A1D7061D900843110 /* Debug */,
+				1743598B1D7061D900843110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1743598C1D7061D900843110 /* Build configuration list for PBXNativeTarget "PraviteTaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1743598D1D7061D900843110 /* Debug */,
+				1743598E1D7061D900843110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		174359651D7061D800843110 /* PraviteTaxi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				174359661D7061D800843110 /* PraviteTaxi.xcdatamodel */,
+			);
+			currentVersion = 174359661D7061D800843110 /* PraviteTaxi.xcdatamodel */;
+			path = PraviteTaxi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 174359531D7061D800843110 /* Project object */;
+}
