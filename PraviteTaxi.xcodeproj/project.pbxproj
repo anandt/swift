@@ -15,6 +15,9 @@
 		1743596C1D7061D900843110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1743596A1D7061D900843110 /* LaunchScreen.storyboard */; };
 		174359771D7061D900843110 /* PraviteTaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174359761D7061D900843110 /* PraviteTaxiTests.swift */; };
 		174359821D7061D900843110 /* PraviteTaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174359811D7061D900843110 /* PraviteTaxiUITests.swift */; };
+		174359901D7066AC00843110 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1743598F1D7066AC00843110 /* MapKit.framework */; };
+		174359921D7066B500843110 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174359911D7066B500843110 /* CoreLocation.framework */; };
+		174359941D7066BC00843110 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174359931D7066BC00843110 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		1743597D1D7061D900843110 /* PraviteTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraviteTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174359811D7061D900843110 /* PraviteTaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraviteTaxiUITests.swift; sourceTree = "<group>"; };
 		174359831D7061D900843110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1743598F1D7066AC00843110 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		174359911D7066B500843110 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		174359931D7066BC00843110 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		174359981D706AB500843110 /* PraviteTaxi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PraviteTaxi-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174359941D7066BC00843110 /* QuartzCore.framework in Frameworks */,
+				174359921D7066B500843110 /* CoreLocation.framework in Frameworks */,
+				174359901D7066AC00843110 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,9 @@
 		174359521D7061D800843110 = {
 			isa = PBXGroup;
 			children = (
+				174359931D7066BC00843110 /* QuartzCore.framework */,
+				174359911D7066B500843110 /* CoreLocation.framework */,
+				1743598F1D7066AC00843110 /* MapKit.framework */,
 				1743595D1D7061D800843110 /* PraviteTaxi */,
 				174359751D7061D900843110 /* PraviteTaxiTests */,
 				174359801D7061D900843110 /* PraviteTaxiUITests */,
@@ -106,6 +119,7 @@
 				1743596A1D7061D900843110 /* LaunchScreen.storyboard */,
 				1743596D1D7061D900843110 /* Info.plist */,
 				174359651D7061D800843110 /* PraviteTaxi.xcdatamodeld */,
+				174359981D706AB500843110 /* PraviteTaxi-Bridging-Header.h */,
 			);
 			path = PraviteTaxi;
 			sourceTree = "<group>";
@@ -196,6 +210,11 @@
 				TargetAttributes = {
 					1743595A1D7061D800843110 = {
 						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					174359711D7061D900843110 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -403,10 +422,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PraviteTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PraviteTaxi/PraviteTaxi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,10 +438,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PraviteTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.friendssuport.PraviteTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PraviteTaxi/PraviteTaxi-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
