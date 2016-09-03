@@ -8,18 +8,36 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,dipayMessage {
 
+    @IBOutlet weak var displayLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        title = "Protocol"
+        
+     navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+     navigationController?.navigationBar.barTintColor = UIColor.grayColor()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func displayMessage(info: String) {
+        print(info)
+        displayLabel.text! = info
+         self.navigationItem.title = info
     }
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "SeguID" {
+            if let fullUserDetails:SecondView = segue.destinationViewController as? SecondView {
+                 fullUserDetails.delegate = self
+        }
+    }
+    
+    }
 
 }
 

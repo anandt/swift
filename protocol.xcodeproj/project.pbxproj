@@ -15,6 +15,7 @@
 		174934821D7B53A00092ADB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174934801D7B53A00092ADB0 /* LaunchScreen.storyboard */; };
 		1749348D1D7B53A00092ADB0 /* protocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749348C1D7B53A00092ADB0 /* protocolTests.swift */; };
 		174934981D7B53A00092ADB0 /* protocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174934971D7B53A00092ADB0 /* protocolUITests.swift */; };
+		174934A61D7B54500092ADB0 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174934A51D7B54500092ADB0 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		174934931D7B53A00092ADB0 /* protocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174934971D7B53A00092ADB0 /* protocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocolUITests.swift; sourceTree = "<group>"; };
 		174934991D7B53A00092ADB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174934A51D7B54500092ADB0 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				174934741D7B53A00092ADB0 /* AppDelegate.swift */,
 				174934761D7B53A00092ADB0 /* ViewController.swift */,
+				174934A51D7B54500092ADB0 /* SecondView.swift */,
 				174934781D7B53A00092ADB0 /* Main.storyboard */,
 				1749347E1D7B53A00092ADB0 /* Assets.xcassets */,
 				174934801D7B53A00092ADB0 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				174934771D7B53A00092ADB0 /* ViewController.swift in Sources */,
 				174934751D7B53A00092ADB0 /* AppDelegate.swift in Sources */,
+				174934A61D7B54500092ADB0 /* SecondView.swift in Sources */,
 				1749347D1D7B53A00092ADB0 /* protocol.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
